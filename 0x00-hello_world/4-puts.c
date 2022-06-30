@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * mine
- * as
- * always
+ * main-Entry point
+ * print to output
+ * return:Always o (success)
  */
 
 int main(void)

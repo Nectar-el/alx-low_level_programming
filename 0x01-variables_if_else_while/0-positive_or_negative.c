@@ -6,18 +6,14 @@
 
 /**
  * main - assign a random number to the variable n each time it is executed
- * and prints out based on condition 
- *
+ * and prints out based on condition
  * Return: Always 0 (success)
  */
 
-int main (void)
+int main(void)
 
 {
-
 	int n;
-
-
 
 	srand(time(0));
 
@@ -25,11 +21,9 @@ int main (void)
 
 	if (n > 0)
 {
-
 	printf("%d is %s\n", n, "positive");
-
 }
- 	else if (n < 0)
+	else if (n < 0)
 {
 	printf("%d is %s\n", n, "negative");
 }
@@ -37,6 +31,5 @@ int main (void)
 {
 	printf("%d is %s\n", n, "zero");
 }
-		return (0);
-
+	return (0);
 }

@@ -4,11 +4,12 @@
 
 #include <stdio.h>
 /**
- * main - prints all possible combinations of single-digit numbers.
+ *main - prints all possible combinations of single-digit numbers.
  *
  * Returns: Always 0 (success)
  */
-void main(void)
+
+int main(void)
 {
 	int ch;
 
@@ -22,5 +23,7 @@ void main(void)
 }
 }
 	putchar(10);
+
+
 	return (0);
 }

@@ -10,9 +10,9 @@
  */
 int main(void)
 {
-	char d = 0;
+	char d = '0';
 
-	while (d <= 9)
+	while (d <= '9')
 
 {
 	putchar(d);

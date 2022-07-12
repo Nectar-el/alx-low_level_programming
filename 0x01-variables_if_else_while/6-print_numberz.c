@@ -8,7 +8,7 @@
 /**
  * main - prints all single digit numbers of base 10 starting from 0.
  * followed by a new line.
- * retun 0 as success and non zero if not.
+ * Return: 0 as success and non zero if not.
  **/
 int main(void)
 {

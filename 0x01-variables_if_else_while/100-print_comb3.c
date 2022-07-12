@@ -5,7 +5,7 @@
 #include <stdio.h>
 /**
  * main -  prints all possible different combinations of two digits
- * return: Always 0 (success)
+ * Return: Always 0 (success)
  */
 
 int main(void)

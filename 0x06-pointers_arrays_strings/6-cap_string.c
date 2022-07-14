@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * cap_string - capitalize all words
  * @str: string
@@ -39,28 +38,17 @@ char *cap_string(char *str)
 	if (trigger)
 
 {
-
 	if (str[i] > 96 && str[i] < 123)
-
 {
-
 	str[i] -= 32;
-
 	trigger = 0;
-
 }
-
 	else if (str[i] > 64 && str[i] < 91)
-
 	trigger = 0;
-
 	else if (str[i] > 47 && str[i] < 58)
-
 	trigger = 0;
-
 }
 }
-
 	return (str);
 
 }

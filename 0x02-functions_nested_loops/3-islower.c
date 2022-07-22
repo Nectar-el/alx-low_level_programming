@@ -2,14 +2,14 @@
 
 /**
  * _islower - main that checks for lowercase character.
- * @c: -  variable
+ * @c: oyut
  * Return: (1) if lower case, (0) if not lower case
  */
 int _islower(int c)
 {
-	char c;
+	char ch;
 
-	if (c > "a" && c < 'z')
+	if (ch > 'a' && ch <= 'a')
 	return (1);
 	else
 	return (0);
